@@ -1,4 +1,5 @@
 import streamlit as st
+from typing import Union
 
 ARMOR_FACTOR = {
     "None": 0,
@@ -13,7 +14,7 @@ BODY_AREA_BASE_COST = {
     "Head": 2
 }
 
-def compute_cost_for_body_area(body_area: str, armor_type: str | None) -> int:
+def compute_cost_for_body_area(body_area: str, armor_type: Union[str, None]) -> int:
     if armor_type is None:
         return 0
     return BODY_AREA_BASE_COST[body_area] * ARMOR_FACTOR[armor_type]
