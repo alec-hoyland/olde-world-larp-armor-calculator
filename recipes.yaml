@@ -1,0 +1,182 @@
+Holy Blade:
+  priority: 3
+  ingredients:
+    Copper: 1
+    Relic: 1
+Dynamite:
+  priority: 2
+  ingredients:
+    -
+      Fruit: 1
+      Saltpeter: 1
+      Wood: 1
+    # -
+    #   Silver Coins: 15
+Fire Bottle:
+  priority: 2
+  ingredients:
+    -
+      Glass: 1
+      Iron: 1
+      Oil: 1
+    # -
+    #   Silver Coins: 10
+Hell's Spittle: 
+  priority: 1
+  ingredients:
+    Sulfur: 1
+    Simple Acid: 2
+Holy Fire:
+  priority: 3
+  ingredients:
+    Glass: 1
+    Oil: 1
+    Wood: 1
+Slick Oil:
+  priority: 1
+  ingredients:
+    Oil: 1
+    Glass: 1
+Grenade:
+  priority: 4
+  ingredients:
+    -
+      Iron: 2
+      Black Powder: 5
+      Cloth: 1
+    -
+      Steel: 2
+      Black Powder: 5
+      Cloth: 1
+    -
+      Iron: 1
+      Steel: 1
+      Black Powder: 5
+      Cloth: 1
+    # -
+    #   Silver Coins: 20
+Silver Shot: 
+  priority: 3
+  ingredients:
+    Relic: 1
+    Lead: 1
+# Cloth:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Fine Soil:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Fruit:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Leather:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Meat:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Wheat:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Wood:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Oil:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Quicksilver:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Saltpeter:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Sulfur:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Simple Acid:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Alfunas:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Blood Oak:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Boot Bane:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Mandrake:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Nightshade:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Rust Wort:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Copper:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Crystal:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Glass:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Iron:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Lead:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Steel:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Relic:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 40
+# Black Powder:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 20
+# Caterpillar:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Cockroach:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Stink Beetle:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10
+# Warp Cap:
+#   priority: 0
+#   ingredients:
+#     Silver Coins: 10

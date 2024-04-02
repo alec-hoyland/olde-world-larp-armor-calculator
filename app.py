@@ -32,7 +32,7 @@ armor_cost = 0
 x = st.selectbox("Torso", ["None", "Light", "Medium", "Heavy"])
 armor_cost += compute_cost_for_body_area("Torso", x)
 
-x = st.selectbox("Left Arm", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Left Arm", ["None", "Light", "Medium", "Heavy"])  
 armor_cost += compute_cost_for_body_area("Limb", x)
 
 x = st.selectbox("Right Arm", ["None", "Light", "Medium", "Heavy"])
