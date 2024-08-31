@@ -4,7 +4,6 @@ from typing import Union
 ARMOR_FACTOR = {
     "None": 0,
     "Light": 1,
-    "Medium": 2,
     "Heavy": 3
 }
 
@@ -25,26 +24,26 @@ def convert_currency(sc: int) -> tuple[int, int]:
 st.title("Olde World Armor Upkeep Calculator")
 
 st.write("This is a simple calculator to help you determine the cost of maintaining your armor in the Olde World game.")
-st.write("For each body area, select the armor type. This calculator does not factor in the 'armor gaps' or 'armor layering' rules.")
+st.write("For each body area, select the armor type.")
 
 armor_cost = 0
 
-x = st.selectbox("Torso", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Torso", ["None", "Light", "Heavy"])
 armor_cost += compute_cost_for_body_area("Torso", x)
 
-x = st.selectbox("Left Arm", ["None", "Light", "Medium", "Heavy"])  
+x = st.selectbox("Left Arm", ["None", "Light", "Heavy"])  
 armor_cost += compute_cost_for_body_area("Limb", x)
 
-x = st.selectbox("Right Arm", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Right Arm", ["None", "Light", "Heavy"])
 armor_cost += compute_cost_for_body_area("Limb", x)
 
-x = st.selectbox("Left Leg", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Left Leg", ["None", "Light", "Heavy"])
 armor_cost += compute_cost_for_body_area("Limb", x)
 
-x = st.selectbox("Right Leg", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Right Leg", ["None", "Light", "Heavy"])
 armor_cost += compute_cost_for_body_area("Limb", x)
 
-x = st.selectbox("Head", ["None", "Light", "Medium", "Heavy"])
+x = st.selectbox("Head", ["None", "Light", "Heavy"])
 armor_cost += compute_cost_for_body_area("Head", x)
 
 gc, sc = convert_currency(armor_cost)
